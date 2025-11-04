@@ -24,6 +24,7 @@ html, body{
   filter: blur(100px);
   height: 30vh;
   width: 30vh;
+  z-index: 1;
 }
 .container{
   max-width: 1300px;
@@ -37,6 +38,7 @@ html, body{
 }
 .hero-section{
   height: calc(100vh - 14vh);
+  display: flex;
   /* background-color: yellow; */
   /* max-width: 1300px; */
 }
@@ -74,6 +76,24 @@ li {
 }
 a{
 text-decoration: none;
+}
+.left-container {
+  /* background-color: aqua; */
+  flex: 1;
+}
+.middle-container{
+  /* background-color: #ef0909; */
+  
+}
+.middle-container img{
+  height: 90vh;
+  display: inline-block;
+  margin: auto;
+  z-index: 999999;
+}
+.right-container{
+  /* background-color: blueviolet; */
+  flex: 1;
 }
 
 
