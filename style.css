@@ -327,3 +327,34 @@ header {
 .card-info a:hover{
   background-color: #efc3c5;
 }
+
+
+/* our services  */
+.c1{
+  /* padding: 2rem; */
+}
+.grid-services{
+  /* background-color: rgb(228, 16, 16); */
+  display: grid;
+  width: 100%;
+  height: 90%;
+  gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.services{
+ border-top: 5px solid #e2f2b0;
+}
+/* .grid-services :hover{
+ border: 5px solid #354503;
+} */
+.services h4{
+  padding: 1.5rem 0;
+  font-size: 2rem;
+  color: white;
+}
+.services p{
+  font-size: 1rem;
+  color: white;
+  /* padding: 1.2rem 0; */
+  margin: 0.8rem;
+}
