@@ -49,7 +49,7 @@ html, body{
 .container{
   max-width: 1300px;
   margin: auto;
-  /* height: 100vh; */
+  /* min-height: 190vh; */
   padding: 0 2rem;
   /* background-color: green; */
 }
@@ -164,6 +164,7 @@ text-decoration: none;
 .scroll-box::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
 .scroll {
   background-color: black;
   overflow: hidden;
@@ -259,3 +260,39 @@ header {
 
 
 /* selling products  */
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:3rem;
+  text-align: center;
+}
+h1{
+  padding: 5rem 0 1rem 1rem;
+  color: #e2f2b0;
+  font-size: 4.5rem;
+  font-family: "Allura", cursive;
+}
+.grid-card{
+  background-color: black;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {
+  background-color: #101010;
+}
+.card-product{
+  /* background-color: aqua; */
+}
+.card-product img{
+  height: 20rem;
+  /* background-color: red; */
+}
+.card-info{
+  /* background-color: greenyellow; */
+}
+
