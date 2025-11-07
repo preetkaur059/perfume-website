@@ -11,10 +11,16 @@ html, body{
   height: 100%;
   width: 100%;
 }
-
-.main-container {
-  height: 100vh;
+.bg-dark-black {
   background-color: black;
+}
+.bg-light-black{
+  background-color: #101010;
+
+}
+.main-container {
+  /* height: 100vh; */
+  /* background-color: black; */
   isolation: isolate;
   position: relative;
 }
@@ -28,6 +34,7 @@ html, body{
   background-color: black ;
   filter: blur(10px);
 }
+
 .blur {
   position: absolute;
   top: 50%;
@@ -42,7 +49,7 @@ html, body{
 .container{
   max-width: 1300px;
   margin: auto;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 0 2rem;
   /* background-color: green; */
 }
@@ -157,9 +164,6 @@ text-decoration: none;
 .scroll-box::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-.scroll{
-  background-color: black;
-}
 .scroll {
   background-color: black;
   overflow: hidden;
@@ -172,7 +176,7 @@ text-decoration: none;
 
 .inner {
   display: flex;
-  animation: scroll 15s linear infinite;
+  animation: scroll 15s linear infinite alternate;
 }
 
 @keyframes scroll {
@@ -196,12 +200,12 @@ text-decoration: none;
   margin: 1.7rem;
   height: 2rem;
   width: 2rem;
-  background-color: #fff;
+  background-color: #e2f2b0;
   border-radius: 50%;
 }
 .inner:hover {
   color: red;
-  animation-play-state: paused;
+  /* animation-play-state: paused; */
 }
 
 header {
@@ -210,9 +214,9 @@ header {
 }
 
 
-/* .our-story  */
+/* .our little story  */
 .scroll1{
-  background-color: #3f3f3f;
+  background-color: #101010;
 }
 .our-story{
   /* background-color: red; */
@@ -222,29 +226,36 @@ header {
 }
 .our-story h1 {
   padding: 5rem 0 1rem 1rem;
-  color: white;
-  font-size: 5rem;
+  color: #e2f2b0;
+  font-size: 4.5rem;
   font-family: "Allura", cursive;
 }
 .our-story p {
   color: white;
   font-size: 1.2rem;
+  padding-bottom: 1.8rem;
 }
 .our-story a{
   display: inline-block;
-  padding: 0.2rem 1rem ;
-  color: white;
-  height: 2rem;
-  width: 7rem;
-  background-color: red;
+  padding: 0.5rem 1rem ;
+  color: black;
+  background-color: #e2f2b0;
   border: 2px solid beige;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.our-story a:hover{
+  background-color: #efc3c5;
 }
 .section1{
   display: flex;
+  justify-content: space-around;
   /* align-self: center; */
 }
 .section1 img{
   /* padding: 5rem; */
   margin: 5rem 2rem ;
-
 }
+
+
+/* selling products  */
