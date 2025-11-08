@@ -377,3 +377,68 @@ header {
   color: black;
   font-weight: 590;
 }
+
+/* product-sale  */
+
+.row {
+  display: flex;
+  overflow-x: hidden;
+}
+.sale-product img{
+  height: 20rem;
+  padding: 2rem;
+}
+.sale{
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.sale h3{
+  color: #efc3c5;
+  letter-spacing: 0.1rem;
+  font-size: 1.3rem;
+}
+.sale h1{
+color: white;
+font-size: 2.2rem;
+}
+.sale a{
+  display: inline-block;
+  margin: 1rem 0 2rem 0;
+  padding: 0.5rem 1rem ;
+  color: black;
+  background-color: #e2f2b0;
+  border: 2px solid beige;
+  font-size: 1.3rem;
+  font-weight: 700;
+  width: 9rem;
+  text-align: center;
+}
+.sale a:hover{
+  background-color: #efc3c5;
+}
+.celebrate{
+  position: relative;
+  isolation: isolate;
+}
+.glow1, .glow2{
+  position: absolute;
+  height: 15rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -1;
+}
+.glow1{
+  top:3rem;
+  left: 5rem;
+background-color: orangered;
+}
+.glow2{
+  bottom:3rem;
+  right: 5rem;
+background-color: blue;
+}
