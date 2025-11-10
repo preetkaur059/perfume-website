@@ -10,6 +10,7 @@
 html, body{
   height: 100%;
   width: 100%;
+  background-color: red;
 }
 .bg-dark-black {
   background-color: black;
@@ -294,7 +295,7 @@ text-decoration: none;
   /* background-color: aqua; */
 }
 .card-product img{
-  height: 20rem;
+  height: 15rem;
   /* background-color: red; */
 }
 .card-info h4{
@@ -369,7 +370,7 @@ text-decoration: none;
 }
 .services:hover.services *{
   color: black;
-  font-weight: 590;
+  font-weight: 500;
 }
 
 /* product-sale  */
@@ -454,7 +455,7 @@ background-color: blue;
   z-index: 999;
   object-fit: cover;
 }
-.container h1{
+.c01 h1{
   padding-top: 4rem;
 }
 
@@ -464,4 +465,15 @@ background-color: blue;
   font-size: 1.5rem;
   color: white;
   text-align: center;
+}
+
+/* media queries  */
+@media screen and (max-width:580px) {
+  
+  .nav-list{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
