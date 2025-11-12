@@ -143,6 +143,7 @@ a {
   display: block;
   margin: 4rem auto;
   object-fit: contain;
+ 
 }
 
 .middle-container img {
@@ -150,11 +151,12 @@ a {
   padding-top: 2rem;
   /* display: inline-block; */
   margin: auto;
-  /* background-color: red; */
+  transition: transform 0.5s ease;
 }
-
+.middle-container img:hover{
+transform: scale(1.03);
+}
 .right-container {
-  /* background-color: blueviolet; */
   align-self: end;
   margin-bottom: 8rem;
   flex: 1;
