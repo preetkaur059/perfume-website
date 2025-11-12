@@ -11,7 +11,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
   margin: 0;
   padding: 0;
   /* overflow-x: hidden; */
@@ -580,27 +580,50 @@ a {
     z-index: 5;
   }
 
+  .lines {
+    height: 0.2rem;
+    width: 2rem;
+  }
+
+
   .hero-section {
     flex-direction: column;
   }
 
   .left-container h1 {
     font-size: 1.9rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 
-  .right-container,
+.scroll-box::-webkit-scrollbar {
+  width: 5px;
+  height: 90px !important;
+  /* scroll bar width */
+}
+
+  .right-container p {
+    position: absolute;
+    top: 38rem;
+    font-size: 0.7rem;
+  }
+
   .section1 img {
     display: none;
   }
 
   .main-container {
-    height: 80vh;
+    height: 100vh;
     /* background-color: red; */
   }
 
   .main-container::before {
     height: 15vh;
+  }
+
+  .blur {
+    height: 20vh;
+    width: 30vh;
+    z-index: -2;
   }
 
   .middle-container img {
@@ -709,6 +732,7 @@ a {
   .image-gallery img {
     height: 16rem;
   }
+
   .con {
     font-size: 1rem;
   }
